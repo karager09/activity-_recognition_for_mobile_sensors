@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Activity_recognition_PK_KM</string>
+    <string name="question">What are you currently doing?</string>
+    <string name="answer_nothing">Nothing.</string>
+    <string name="answer_running">Running / Jogging.</string>
+    <string name="answer_walking">Walking.</string>
+    <string name="answer_staying">Staying.</string>
+    <string name="answer_getting_up">Getting up.</string>
+    <string name="answer_sitting_down">Sitting down.</string>
+</resources>

@@ -4,8 +4,9 @@ C:\Users\Piotr\AppData\Local\Android\Sdk\platform-tools
 run in CMD:
 adb -d shell "run-as com.example.activity_recognition_pk_km cat  /data/data/com.example.activity_recognition_pk_km/databases/accelerometer_data.db" > "D:\Studia\Sem. 9\aml\project - activity recognition\pk_km_data.db"
 
+################s
 
-Tworzenie backupu (w adb):
+Tworzenie backupu (abd location: C, users, AppData, android, sdk, platform tools):
 adb backup -f "D:\Studia\Sem. 9\aml\project - activity recognition\my_backup_activity_recognition.ab" -noapk com.example.activity_recognition_pk_km
 
 Rozpakowywanie (w pobranych/extractor):

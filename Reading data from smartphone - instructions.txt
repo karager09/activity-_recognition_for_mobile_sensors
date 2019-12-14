@@ -1,0 +1,5 @@
+Tworzenie backupu (abd location: C:\Users\Piotr\AppData\Local\Android\Sdk\platform-tools):
+adb backup -f "D:\Studia\Sem. 9\aml\project - activity recognition\my_backup_activity_recognition.ab" -noapk com.example.activity_recognition_pk_km
+
+Rozpakowywanie (extractor):
+java -jar abe.jar unpack "D:\Studia\Sem. 9\aml\project - activity recognition\my_backup_activity_recognition.ab" "D:\Studia\Sem. 9\aml\project - activity recognition\database_extracted.tar"
